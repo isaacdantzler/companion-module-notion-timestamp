@@ -1,4 +1,4 @@
-# PlanetPope Timestamper Companion Module
+# Notion Timestamp Companion Module
 
 Use this module to keep track of timestamps in Notion. All you need to use this module is: 
 
@@ -6,7 +6,7 @@ Use this module to keep track of timestamps in Notion. All you need to use this 
 * a page within Notion
 * an integration that has access to the page
 
-To read the full documentation, including a step-by-step configuration of this module, visit the [wiki](https://github.com/bitfocus/companion-module-planetpope-timestamper/wiki).
+To read the full documentation, including a step-by-step configuration of this module, visit the [wiki](https://github.com/bitfocus/companion-module-notion-timestamp/wiki).
 
 ## Available commands
 

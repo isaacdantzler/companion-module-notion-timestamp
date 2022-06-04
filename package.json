@@ -1,22 +1,22 @@
 {
-  "name": "planetpope-timestamper",
+  "name": "notion-timestamp",
   "version": "1.0.0",
   "api_version": "1.0.0",
-  "manufacturer": "PlanetPope",
-  "product": "Timestamper",
-  "shortname": "timestamper",
+  "manufacturer": "Notion",
+  "product": "Timestamp",
+  "shortname": "timestamp",
   "keywords": [
-    "Timestamper",
+    "Timestamp",
     "Notion"
   ],
   "description": "Module to send timestamps to Notion",
-  "homepage": "https://github.com/bitfocus/companion-module-planetpope-timestamper",
+  "homepage": "https://github.com/bitfocus/companion-module-notion-timestamp",
   "bugs": {
-    "url": "https://github.com/bitfocus/companion-module-planetpope-timestamper/issues"
+    "url": "https://github.com/bitfocus/companion-module-notion-timestamp/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bitfocus/companion-module-planetpope-timestamper.git"
+    "url": "git+https://github.com/bitfocus/companion-module-notion-timestamp.git"
   },
   "main": "index.js",
   "scripts": {
