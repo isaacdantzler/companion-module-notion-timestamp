@@ -1,6 +1,6 @@
 # Notion Timestamp Companion Module
 
-Use this module to keep track of timestamps in Notion. All you need to use this module is: 
+Use this module to keep track of timestamps in Notion. All you need to use this module is:
 
 * a Notion account
 * a page within Notion

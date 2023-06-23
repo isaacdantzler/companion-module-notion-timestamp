@@ -108,8 +108,8 @@ class NotionInstance extends InstanceBase {
 				name: 'Stop a Session',
 				options: [],
 				callback: async (action) => {
-					const rightNow = Date.now();
-					const isoDate = new Date(rightNow).toISOString();
+					const rightNow = Date.now()
+					const isoDate = new Date(rightNow).toISOString()
 					
 					await self.stopSession(rightNow, isoDate)
 				},
