@@ -1,0 +1,31 @@
+{
+	"id": "notion-timestamp",
+	"name": "notion-timestamp",
+	"shortname": "timestamp",
+	"description": "Module to send timestamps to Notion",
+	"version": "2.0.0",
+	"license": "MIT",
+	"repository": "git+https://github.com/bitfocus/companion-module-notion-timestamp.git",
+	"bugs": "https://github.com/bitfocus/companion-module-notion-timestamp/issues",
+	"maintainers": [
+		{
+			"name": "Darin Pope",
+			"email": "darin@planetpope.com"
+		}
+	],
+	"legacyIds": [],
+	"runtime": {
+		"type": "node18",
+		"api": "nodejs-ipc",
+		"apiVersion": "0.0.0",
+		"entrypoint": "..\\index.js"
+	},
+	"manufacturer": "Notion",
+	"products": [
+		"Timestamp"
+	],
+	"keywords": [
+		"Timestamp",
+		"Notion"
+	]
+}
