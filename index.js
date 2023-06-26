@@ -20,7 +20,7 @@ class NotionInstance extends InstanceBase {
 
 	async destroy() {
 		this.log('debug', 'destroying')
-		var self = this
+		let self = this
 		if (self.NOTIONINFO_ACTIVE === true) {
 			const rightNow = Date.now()
 			const isoDate = new Date(rightNow).toISOString()
