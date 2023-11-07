@@ -104,6 +104,26 @@ class NotionInstance extends InstanceBase {
 					await self.createMessage(rightNow, isoDate, message, '')
 				},
 			},
+			['createMarker2']: {
+				name: 'Create Two Markers',
+				options: [
+					{
+						type: 'textinput',
+						label: 'Message One',
+						id: 'message1',
+						default: '',
+					},
+					{
+						type: 'textinput',
+						label: 'Message Two',
+						id: 'message2',
+						default: '',
+					},
+				],
+				callback: async (action, context) => {
+					let message = await context.parseVariablesInString(action.options.message.trim())
+					await self.createMessage2(message1, message2, '')
+				},
 			['stopSession']: {
 				name: 'Stop a Session',
 				options: [],
@@ -147,7 +167,15 @@ class NotionInstance extends InstanceBase {
 		} else {
 			timestampFmt = '00:' + minutes.toString().padStart(2, '0') + ':' + seconds.toString().padStart(2, '0')
 		}
-
+	async createMessage2(message1, message2) {
+		let self = this
+		if (self.NOTIONINFO_ACTIVE === false) {
+			return
+		}
+		if (self.NOTIONINFO_START_TIME === 0) {
+			self.NOTIONINFO_START_TIME = rightNow
+		}
+		}
 		const body = {
 			parent: {
 				database_id: self.NOTIONINFO_DATABASEID,
